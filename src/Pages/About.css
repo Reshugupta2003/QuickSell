@@ -1,0 +1,55 @@
+/* src/Pages/About.css */
+
+.about-wrapper {
+  padding: 3rem 1rem;
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-card {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  border-radius: 1rem;
+  padding: 2.5rem;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  color: #212529;
+  line-height: 1.7;
+}
+
+.about-card h1 {
+  text-align: center;
+  font-size: 2.4rem;
+  margin-bottom: 1.5rem;
+  color: #007bff;
+}
+
+.about-card h3 {
+  margin-top: 2rem;
+  color: #343a40;
+}
+
+.about-card ul {
+  margin-top: 0.5rem;
+  margin-left: 1.2rem;
+}
+
+.about-card ul li {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.highlight-text {
+  background-color: #e2f0ff;
+  border-left: 4px solid #007bff;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+}
+
+.closing {
+  font-weight: bold;
+  margin-top: 2rem;
+  text-align: center;
+  color: #28a745;
+}
